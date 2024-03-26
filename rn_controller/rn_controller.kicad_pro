@@ -419,7 +419,12 @@
       "version": 3
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "/PCIE_CONN/PCIE_CLK_N": "100R-PCIE",
+      "/PCIE_CONN/PCIE_CLK_P": "100R-PCIE",
+      "Net-(U1-PETXN)": "90R-PCIE",
+      "Net-(U1-PETXP)": "90R-PCIE"
+    },
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -475,6 +480,14 @@
     [
       "9a657805-831a-431d-a751-15d011009a90",
       "USB_IC"
+    ],
+    [
+      "5f1afad9-603b-422b-ab69-8b17867fb174",
+      "PCIE_CONN"
+    ],
+    [
+      "c856299a-2981-4be4-929c-355b69c9e9df",
+      "PSU"
     ]
   ],
   "text_variables": {}
