@@ -1,5 +1,31 @@
 (kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 4627b6c4-e89d-474f-b44e-65b603588291)
+
   (paper "A4")
-  (lib_symbols)
-  (symbol_instances)
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 204.47 59.69) (size 39.37 20.32) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 9a657805-831a-431d-a751-15d011009a90)
+    (property "Sheetname" "USB_IC" (at 204.47 58.9784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "USB_IC.kicad_sch" (at 204.47 80.5946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "rn_controller"
+        (path "/4627b6c4-e89d-474f-b44e-65b603588291" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
 )
