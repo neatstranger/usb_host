@@ -675,7 +675,7 @@
     (property "Datasheet" "~" (at 181.61 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC Part" "C497598" (at 181.61 81.28 0)
+    (property "LCSC Part" "C336314" (at 181.61 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid ee0cfee1-09ea-4130-b078-49243552f348))
